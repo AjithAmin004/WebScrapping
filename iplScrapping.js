@@ -1,7 +1,8 @@
 const request = require('request');
 
 const jsdom = require("jsdom");
-const { JSDOM } = jsdom;="https://www.espncricinfo.com/series/ipl-2021-1249214/chennai-super-kings-vs-kolkata-knight-riders-final-1254117/full-scorecard";
+const { JSDOM } = jsdom;
+let link ="https://www.espncricinfo.com/series/ipl-2021-1249214/chennai-super-kings-vs-kolkata-knight-riders-final-1254117/full-scorecard";
 
 
 request(link,cb);
